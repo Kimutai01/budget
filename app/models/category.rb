@@ -7,10 +7,11 @@ class Category < ApplicationRecord
   validates :user_id, presence: true
 
   def total_amount(user)
-    payments.includes(:user).where(user:).sum(:amount)
+    payments.where(user_id: user.id).sum(:amount)
   end
 
+
   def sorted_payments(user)
-    payments.includes(:user).where(user:).order(created_at: :desc)
+    payments.where(user_id: user.id).order(created_at: :desc)
   end
 end
