@@ -2,9 +2,8 @@
 
 A web application that enables you to keep track of budget
 
-![image]()
 
-### Live demo: [budget app]()
+### Live demo: [budget app](https://floating-ocean-44495.herokuapp.com/)
 
 ## Built With
 
@@ -18,8 +17,6 @@ A web application that enables you to keep track of budget
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
-
 
 ## Usage
 

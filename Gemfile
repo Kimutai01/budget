@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Authentication
 gem 'devise'
+ruby '3.0.0'
 
 # linters
 gem 'rubocop', '>= 1.0', '< 2.0'
