@@ -10,7 +10,6 @@ class Category < ApplicationRecord
     payments.where(user_id: user.id).sum(:amount)
   end
 
-
   def sorted_payments(user)
     payments.where(user_id: user.id).order(created_at: :desc)
   end
