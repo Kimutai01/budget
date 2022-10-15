@@ -4,7 +4,7 @@ A web application that enables you to keep track of budget
 
 ### Video Link: [Video](https://www.loom.com/share/61f751d85ee9494fa12cd2ba6c5a97c1)
 
-### Live demo: [budget app](https://floating-ocean-44495.herokuapp.com/)
+### Live demo: [budget app](https://peaceful-river-33336.herokuapp.com/)
 
 ## Built With
 
